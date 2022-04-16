@@ -61,17 +61,54 @@ MariaDB [wordpress]> UPDATE wp_options SET option_value = replace(option_value, 
 
 ## Now create an AMI from staging server
 
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/AMI.png)
+
 ## Create a Target Group
+
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/tg1.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/tg2.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/tg3.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/tg4.png)
 
 ## Create a Launch configurations
 
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/LC1.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/LC2.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/LC3.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/LC4.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/LC5.png)
+
 ## Create an Auto Scaling groups
 
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/AG1.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/AG2.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/AG3.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/AG4.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/AG5.png)
+
 ## Now the Instancess will be created under the target group we created
+
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/EC2.png)
 
 ## Now set up the ALB
 
 From Listener click View/edit rules
 
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/ALB1.png)
+
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/ALB2.png)
+
 ## Now Add Rout 53 Records
 
+![alt text](https://github.com/SuryakiranSubramaniam/Production-Servers-From-Staging-Server/blob/main/image/R53.png)
